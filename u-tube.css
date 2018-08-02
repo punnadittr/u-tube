@@ -13,8 +13,8 @@ body {
 
 /* Style the links inside the navigation bar */
 .topnav li {
-  display: inline;
   float: left;
+  display: inline;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -77,7 +77,6 @@ iframe {
 .previews {
   margin-right: 100px;
   grid-area: b;
-  background: ;
 }
 
 .next-thumbnail {
