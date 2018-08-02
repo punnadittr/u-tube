@@ -1,0 +1,119 @@
+/* Universal */
+
+body {
+  font-family: Arial;
+  letter-spacing: 0ch;
+}
+
+/* Navbar */
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav li {
+  display: inline;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo {
+  margin-top: 4px;
+  height: 24px;
+}
+
+.fa-bars {
+  color: black;
+  margin-top: 5px;
+}
+
+.searchbar {
+  width: 575px;
+  height: 32px;
+  position: relative;
+  left: 80%;
+}
+.main-container {
+  margin-top: 25px;
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-areas:  "a a a a a a b b"
+                        "a a a a a a b b"
+                        "a a a a a a b b";
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.video-container {
+  margin-left: 100px;
+  grid-area: a;
+}
+
+.hashtag {
+  margin-top: 15px;
+  color: #2CA0F2;
+  font-size: 0.8em;
+}
+
+.main-video-name {
+  margin-top: 5px;
+}
+
+.main-video-views {
+  margin-top: 20px;
+  color: #A0A0A0;
+}
+
+iframe {
+  height: 720px;
+  width: 1280px;
+}
+
+.previews {
+  margin-right: 100px;
+  grid-area: b;
+  background: ;
+}
+
+.next-thumbnail {
+  float:left;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.preview-thumbnail {
+  float:left;
+
+}
+
+.vid-info {
+  margin-left: 180px;
+}
+
+.vid-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.vid-name-no-padding {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.vid-channel {
+  color: rgb(146, 146, 146);
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+
+.vid-views {
+  color: rgb(146, 146, 146);
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
